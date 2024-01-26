@@ -1,0 +1,15 @@
+name: LegitJustWarps
+version: '${project.version}'
+main: dev.corestone.legitjustwarps.LegitJustWarps
+api-version: '1.20'
+commands:
+  setwarp:
+    usage: '/command <warp>'
+    permission: ljw.setwarp
+  warp:
+    usage: '/command <warp>'
+    permission: ljw.warp
+  deletewarp:
+    permission: ljw.deletewarp
+    aliases: [delwarp]
+
