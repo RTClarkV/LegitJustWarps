@@ -34,7 +34,6 @@ public class SetWarp implements CommandExecutor {
             player.sendMessage(Colorize.format("&c Your warp must have a name."));
             return true;
         }
-
         String name = args[0];
 
         if(name.equals(""))return true;
